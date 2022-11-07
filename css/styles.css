@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.master {
+	padding: 15px;
+}
+
+header .byline {
+	padding: 15px 0;
+}
+
+.info-text p {
+	padding: 0px 0 20px 0;
+}
+
+.article-content {
+	padding: 15px 0;
+    overflow: auto;
+    position: relative;
+}
+#brick-wall {
+	width: 100%;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #fff;
+    border: 2px solid #333;
+}
+.wall-row {
+    width: auto;
+    display: flex;
+}
+.brick {
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    border-left: 5px solid #FFF;
+    border-right: 5px solid #FFF;
+    background-color: #505050;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    margin: 3px 0px;
+	padding: 0 20px;
+    display: inline-block;
+    float: left;
+}
+
+.vertical-cut-bar {
+	position: absolute;
+    background-color: #FF0000;
+    height: 98.5%;
+    width: 3px;
+    z-index: 999;
+    top: 20px;
+}

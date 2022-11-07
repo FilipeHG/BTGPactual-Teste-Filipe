@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>BTG Pactual (IT-PME)</title>
+	
+	<link rel="stylesheet" href="css/styles.css"/>
+	<script type="text/javascript" src="scripts/index-component.js"></script>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="master">
+		<article>
+			<header>
+				<h1 class="headline">
+					BTG Pactual (IT-PME) - Teste de proficiência em raciocínio lógico e conhecimentos de programação.
+				</h1>
+				
+				<div class="byline">
+					<address class="author">
+						By <a rel="author" href="/">Filipe Henrique Gonçalves</a>						
+					</address> 
+				</div>
+				
+				<div class="info-text">
+					<p id="txt-log-bricks"></p>
+				</div>
+				
+				<button type="button" class="btn btn-primary" onclick="buildWall()">NOVO MURO</button>
+			</header>
+
+			<div class="article-content">
+				<div id="brick-wall"></div>
+				<div class="vertical-cut-bar"></div>
+			</div>
+		</article>
+	</div>
+	
+	<script>
+		buildWall();
+	</script>
+</body>
+</html>
